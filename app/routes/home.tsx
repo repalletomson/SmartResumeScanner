@@ -40,6 +40,12 @@ export default function Home() {
   }, []);
 
   return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
+    {/* Developer signature */}
+    <div className="absolute top-4 left-4 z-10">
+      <p className="text-xs text-gray-600 opacity-75">
+        Made with ❤️ by Sidharatha Mahendra
+      </p>
+    </div>
     <Navbar />
 
     <section className="main-section">
